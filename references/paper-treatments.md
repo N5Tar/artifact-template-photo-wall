@@ -35,11 +35,11 @@
 
 独立素材使用下文独立前缀，按工具能力选择透明或中性工作底，正面平放、无场景投影。单次或分批场景生成只将所选样式和材质段绑定到相应 ID，由场景提示决定透视、摆放和投影，不使用独立前缀。以下含文字的版式元素仅在用户明确要求并提供确切内容时启用，否则省略标题、编号、字段、条形码和邮戳；保留照片中已有的文字。
 
-**ticket**：`Warm ivory ticket stub with a photo window preserving the complete photograph and its aspect ratio, punched edge perforations and a tear-off dashed line outside the photo. Leave the remaining cardstock blank. Preserve existing source text; add no lettering, numbers, barcode or watermark.`
+**ticket**（仅用户选此版式时）：`Warm ivory ticket stub with a photo window preserving the complete photograph and its aspect ratio, punched edge perforations and a tear-off dashed line outside the photo. Leave the remaining cardstock blank. Preserve existing source text; add no lettering, numbers, barcode or watermark.`
 
-**boarding-pass**：`Tall white cardstock with an unlettered muted header band, a photo window sized to show the complete photograph at its original aspect ratio, blank ruled sections below, and a perforated tear-off line outside the photo. Preserve existing source text; add no labels, values, numbers or barcode.`
+**boarding-pass**（仅用户选此版式时）：`Tall white cardstock with an unlettered muted header band, a photo window sized to show the complete photograph at its original aspect ratio, blank ruled sections below, and a perforated tear-off line outside the photo. Preserve existing source text; add no labels, values, numbers or barcode.`
 
-**postcard**：`The complete photo at its original aspect ratio with a slim off-white cardstock margin. Use the selected print tone and texture. Preserve existing source text; add no stamp, postmark, place name, caption or watermark.`
+**postcard**（仅用户选此版式时）：`The complete photo at its original aspect ratio with a slim off-white cardstock margin. Use the selected print tone and texture. Preserve existing source text; add no stamp, postmark, place name, caption or watermark.`
 
 **instant**：`Thick off-white frame with even side margins and a distinctly wide bottom chin, photo inset with softly rounded corners and gentle chemical fade. Preserve source handwriting and dates; add none.`
 
@@ -159,6 +159,6 @@ numbers, no brand names.
 
 按主文核实当前接口上限 K，再列本轮原图／处理图、背景、风格参考、上一轮场景等实际输入；全部占位。输入足够可一次按逐图材质表完成处理和融合。两阶段使用已确认的处理图，不擅自替换为裸原图。
 
-超限先移除可选风格参考；仍不足时说明批次、成品数量及风险，确认实质取舍。分批续轮的已有场景占 1 位，新增图最多 K−1 张，附加参考和重传图再扣减；每轮验收全部累计照片，不能只查本轮新增。指定背景需首轮实际传入、后续场景保留，不用文字或参考重生成替代。禁止脚本拼接或低清参考拼图绕过限制。
+超限先移除可选风格参考；仍不足时说明批次、成品数量及风险，确认实质取舍。分批续轮若工具明确支持上一轮图像编辑，已有场景占 1 位，新增图最多 K−1 张，附加参考和重传图再扣减；纯文本续轮不能保证场景细节保真，须披露风险并按主文确认路线。每轮验收全部累计照片，不能只查本轮新增。指定背景需首轮实际传入、后续场景保留，不用文字或参考重生成替代。禁止脚本拼接或低清参考拼图绕过限制。
 
 按最终位置和显示尺寸检查数量、内容保真、各自材质的边缘及内部效果、留白、光照透视和可读性。多图塞不下就建议分组／多成品，不无限缩小。背景为参考重生成时如实说明。任何路线均不保证零漂移，逐轮对照原图、已有场景及可用处理图验收。

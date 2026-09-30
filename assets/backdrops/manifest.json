@@ -6,7 +6,7 @@
     "layout": "layout family id from SKILL.md Layer 2",
     "mode": "scene/container category for model composition; not a script placement command",
     "size": "intrinsic pixel size of the shipped asset",
-    "light": "key light direction, drives shadow offset",
+    "light": "observed key light direction to guide image-model integration",
     "safe": "[x, y, w, h] approximate available region; inspect the actual image and preserve readable scale and whitespace",
     "capacity": "[min, max] suggested composition range, not a tool input limit or mandatory minimum",
     "hang_line": "mode=line only, normalised y of the cord",

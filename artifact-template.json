@@ -3,8 +3,6 @@
   "kind": "image",
   "galleryKind": "imagegen",
   "description": "Select a suitable scene and assign distinct paper treatments per photo, normally mixing 2–3 materials with hierarchy. Respect user-specified backgrounds and materials. Verify the current image-input limit; use one-pass generation when inputs fit, or independent treatment and approved batch/group workflows when needed. Preserve photo identity and readability; no script compositing. Background and paper have no fixed defaults; choose them from the actual photos and brief.",
-  "defaultTileStyle": "photo",
-  "defaultMood": "cozy",
   "backdropManifest": "assets/backdrops/manifest.json",
   "backdrops": [
     {
