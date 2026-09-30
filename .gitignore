@@ -1,0 +1,19 @@
+# Local agent configuration and conversation logs
+.myagent/
+
+# macOS metadata
+.DS_Store
+._*
+
+# Local working inputs and generated previews
+/inputs/
+/outputs/
+
+# Local secrets
+.env
+.env.*
+!.env.example
+
+# Python caches
+__pycache__/
+*.py[cod]

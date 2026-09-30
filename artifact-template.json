@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 2,
+  "kind": "image",
+  "galleryKind": "imagegen",
+  "description": "Select a suitable scene and assign distinct paper treatments per photo, normally mixing 2–3 materials with hierarchy. Respect user-specified backgrounds and materials. Verify the current image-input limit; use one-pass generation when inputs fit, or independent treatment and approved batch/group workflows when needed. Preserve photo identity and readability; no script compositing. Background and paper have no fixed defaults; choose them from the actual photos and brief.",
+  "defaultTileStyle": "photo",
+  "defaultMood": "cozy",
+  "backdropManifest": "assets/backdrops/manifest.json",
+  "backdrops": [
+    {
+      "id": "white-wall",
+      "name": "White Wall 留白墙",
+      "aliases": ["white wall", "白墙", "留白墙", "贴墙", "墙面"],
+      "file": "assets/backdrops/white-wall.png",
+      "mode": "wall",
+      "canvas": "3:4",
+      "capacity": [3, 10],
+      "attach": ["tape", "pin"]
+    },
+    {
+      "id": "frame-collage",
+      "name": "Frame Collage 木框拼贴",
+      "aliases": ["frame", "collage", "相框", "拼框", "画框"],
+      "file": "assets/backdrops/frame-collage.png",
+      "mode": "mat",
+      "canvas": "1:1",
+      "capacity": [3, 8],
+      "attach": []
+    },
+    {
+      "id": "desk-scene",
+      "name": "Desk Scene 桌面景",
+      "aliases": ["desk", "table", "桌面", "书桌", "散落"],
+      "file": "assets/backdrops/desk-scene.png",
+      "mode": "table",
+      "canvas": "4:3",
+      "capacity": [3, 8],
+      "attach": []
+    },
+    {
+      "id": "string-clips",
+      "name": "String Clips 挂绳木夹",
+      "aliases": ["string", "clips", "twine", "挂绳", "麻绳", "木夹"],
+      "file": "assets/backdrops/string-clips.png",
+      "mode": "line",
+      "canvas": "3:2",
+      "capacity": [3, 7],
+      "attach": ["peg"]
+    },
+    {
+      "id": "tin-box",
+      "name": "Tin Box 铁盒",
+      "aliases": ["tin", "tin box", "铁盒", "人生铁盒"],
+      "file": "assets/backdrops/tin-box.png",
+      "mode": "box",
+      "canvas": "3:4",
+      "capacity": [3, 10],
+      "attach": []
+    }
+  ],
+  "papers": [
+    {
+      "id": "matte-print",
+      "name": "Matte Print 哑光相纸",
+      "aliases": ["matte", "哑光", "相纸"]
+    },
+    {
+      "id": "torn-edge",
+      "name": "Torn Edge 手撕边",
+      "aliases": ["torn", "撕边", "毛边", "剪贴"]
+    },
+    {
+      "id": "instant",
+      "name": "Instant 白边即时成像",
+      "aliases": ["instant", "polaroid", "拍立得", "白边"]
+    },
+    {
+      "id": "film-border",
+      "name": "Film Border 胶片黑边",
+      "aliases": ["film border", "胶片边", "黑边"]
+    }
+  ],
+  "tileStyles": [
+    { "id": "photo", "name": "Photo 纯照片", "aliases": ["photo", "照片"] },
+    { "id": "ticket", "name": "Ticket 旅行票根", "aliases": ["ticket", "票根", "车票"] },
+    { "id": "boarding-pass", "name": "Boarding Pass 登机牌", "aliases": ["boarding pass", "登机牌"] },
+    { "id": "postcard", "name": "Postcard 复古明信片", "aliases": ["postcard", "明信片"] },
+    { "id": "instant", "name": "Instant 拍立得", "aliases": ["instant", "polaroid", "拍立得"] },
+    { "id": "film-frame", "name": "Film Frame 胶片帧", "aliases": ["film frame", "胶片帧"] }
+  ],
+  "moods": [
+    { "id": "nostalgia", "name": "Nostalgia 回忆", "aliases": ["nostalgia", "回忆", "怀旧", "复古"] },
+    { "id": "cozy", "name": "Cozy 温馨", "aliases": ["cozy", "warm", "温馨", "温暖"] },
+    { "id": "joy", "name": "Joy 快乐", "aliases": ["joy", "happy", "快乐", "欢快"] },
+    { "id": "youth", "name": "Youth 青春", "aliases": ["youth", "青春", "学生时代"] }
+  ]
+}

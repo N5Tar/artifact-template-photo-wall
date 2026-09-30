@@ -1,0 +1,80 @@
+{
+  "version": 2,
+  "assets_dir": "assets/backdrops",
+  "fields": {
+    "file": "backdrop image inside assets_dir",
+    "layout": "layout family id from SKILL.md Layer 2",
+    "mode": "scene/container category for model composition; not a script placement command",
+    "size": "intrinsic pixel size of the shipped asset",
+    "light": "key light direction, drives shadow offset",
+    "safe": "[x, y, w, h] approximate available region; inspect the actual image and preserve readable scale and whitespace",
+    "capacity": "[min, max] suggested composition range, not a tool input limit or mandatory minimum",
+    "hang_line": "mode=line only, normalised y of the cord",
+    "sag": "mode=line only, extra droop at the centre",
+    "presets": "legacy optional layout hints; empty entries provide no validated plan"
+  },
+  "backdrops": {
+    "white-wall": {
+      "file": "white-wall.png",
+      "layout": "white-wall",
+      "mode": "wall",
+      "size": [1024, 1536],
+      "light": "upper-left",
+      "safe": [0.055, 0.035, 0.89, 0.925],
+      "capacity": [3, 10],
+      "mood_default": "nostalgia",
+      "caption": "A lived-in plaster wall with daylight from the upper left.",
+      "presets": {}
+    },
+    "frame-collage": {
+      "file": "frame-collage.png",
+      "layout": "frame-collage",
+      "mode": "mat",
+      "size": [1024, 1024],
+      "light": "upper-left",
+      "safe": [0.245, 0.175, 0.605, 0.70],
+      "capacity": [3, 8],
+      "mood_default": "cozy",
+      "caption": "Empty wooden frame with cream mat board, hangable and gift-ready.",
+      "presets": {}
+    },
+    "desk-scene": {
+      "file": "desk-scene.png",
+      "layout": "desk-scene",
+      "mode": "table",
+      "size": [1536, 1024],
+      "light": "upper-left",
+      "safe": [0.09, 0.10, 0.76, 0.80],
+      "capacity": [3, 8],
+      "mood_default": "cozy",
+      "caption": "Overhead warm wood table with a few neutral props and soft daylight.",
+      "presets": {}
+    },
+    "string-clips": {
+      "file": "string-clips.png",
+      "layout": "string-clips",
+      "mode": "line",
+      "size": [1536, 1024],
+      "light": "upper-left",
+      "safe": [0.05, 0.46, 0.90, 0.50],
+      "hang_line": 0.48,
+      "sag": 0.02,
+      "capacity": [3, 7],
+      "mood_default": "youth",
+      "caption": "Natural twine with empty wooden pegs against a pale wall.",
+      "presets": {}
+    },
+    "tin-box": {
+      "file": "tin-box.png",
+      "layout": "tin-box",
+      "mode": "box",
+      "size": [1024, 1536],
+      "light": "top",
+      "safe": [0.10, 0.50, 0.80, 0.40],
+      "capacity": [3, 10],
+      "mood_default": "nostalgia",
+      "caption": "Open brushed-metal tin from above, lower compartment empty.",
+      "presets": {}
+    }
+  }
+}
